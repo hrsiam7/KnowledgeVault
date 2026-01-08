@@ -1,5 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  background-color: #FFFFFF;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;;
+    background-color: aqua;
+    
+}
+.logo{
+    width:139px;
+    height:60px;
+    margin-left: 120px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.btn{
+    padding: 16px 12px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
