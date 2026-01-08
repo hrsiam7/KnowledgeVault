@@ -51,3 +51,6 @@ nav li a:hover{
     background-color: #28a745;
     box-shadow: black 0px 4px 15px;
 }
+.container{
+    background-image: url('../img/hero-bg.png');
+}
