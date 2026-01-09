@@ -19,9 +19,12 @@
     
 }
 .logo{
-    width:139px;
-    height:60px;
-    margin-left: 120px;
+  margin-left: 120px;
+}
+
+.logo img{
+  width: 140px;
+  height: auto;
 }
 nav ul{
     display: flex;
@@ -57,7 +60,6 @@ nav li a:hover{
 .container{
     background-image: url('../img/hero-bg.png');
     background-attachment: fixed;
-    back
     width: 100%;
     height: 600px;
     border-image-repeat: stretch;
@@ -70,13 +72,9 @@ nav li a:hover{
 }
 .heading{
    width: 770px;
-    height: 168px;
-    font-style: bold;
-    font-size: 32px;
-    line-height: 84px;
-    text-align: center;
-    align-items: center;
-
+   margin: 0 auto;
+   text-align: center;
+   font-weight: bold;
 }
 
 .play-btn{
@@ -114,20 +112,35 @@ nav li a:hover{
 .play-btn:hover .icon{
   border-color:#0f172a;
 }
-.btnconain{
+.btncontain{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     
 }
 .earlyaccess {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 6;
+    gap: 6px;
     color: #30B868;
     background-color: #FFFFFF;
     border-radius: 1000px;
     width: 229px;
     height: 35px;
+}
+.cart{
+  display:flex;
+  justify-content:center;
+  gap:24px;
+  margin:80px auto;
+}
+
+.cart > div{
+  width:260px;
+  padding:24px;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  text-align:center;
 }
