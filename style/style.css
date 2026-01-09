@@ -140,6 +140,7 @@ nav li a:hover{
   justify-content:center;
   gap:24px;
   margin:80px auto;
+  background-color: #F7F6F2;
 }
 .cart img{
   width:40px;
