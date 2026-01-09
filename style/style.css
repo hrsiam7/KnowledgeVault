@@ -54,7 +54,15 @@ nav li a:hover{
     box-shadow: black 0px 4px 15px;
 }
 .container{
-    background-image: url('../img/hero-bg.png');
+    background: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.1)
+),
+    url("../img/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+
     height: 600px;
     text-align: center;
     display: flex;
@@ -194,7 +202,13 @@ nav li a:hover{
 }
 
 .solution-list li {
+    list-style: none;
     margin-bottom: 10px;
+}
+.solution-list img {
+    width: 20px;
+    
+    vertical-align: middle;
 }
 .cta {
     text-align: center;
