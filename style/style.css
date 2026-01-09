@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;;
-    background-color: aqua;
+    
     
 }
 .logo{
@@ -38,6 +38,9 @@ nav li a:hover{
     padding: 5px;
 }
 .btn{
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
     padding: 12px 16px 12px 16px;
     background-color: #30B868;
     color: #FFFFFF;
@@ -53,4 +56,78 @@ nav li a:hover{
 }
 .container{
     background-image: url('../img/hero-bg.png');
+    background-attachment: fixed;
+    back
+    width: 100%;
+    height: 600px;
+    border-image-repeat: stretch;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+    align-items: center;
+    
+     
+}
+.heading{
+   width: 770px;
+    height: 168px;
+    font-style: bold;
+    font-size: 32px;
+    line-height: 84px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.play-btn{
+  display:inline-flex;
+  justify-content: center;
+  align-items:center;
+  gap:10px;
+  padding:12px 16px 12px 16px;
+  border:2px solid #ffffff;
+  color:#ffffff;
+  text-decoration:none;
+  border-radius:8px;
+  font-size:16px;
+  width: 205px;
+  height: 52px;
+  
+}
+
+.play-btn .icon{
+  width:26px;
+  height:26px;
+  border:2px solid #ffffff;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+}
+
+.play-btn:hover{
+  background:#ffffff;
+  color:#0f172a;
+}
+
+.play-btn:hover .icon{
+  border-color:#0f172a;
+}
+.btnconain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.earlyaccess {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6;
+    color: #30B868;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
 }
