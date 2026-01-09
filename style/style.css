@@ -140,7 +140,7 @@ nav li a:hover{
   justify-content:center;
   gap:24px;
   margin:80px auto;
-  background-color: #F7F6F2;
+  
 }
 .cart img{
   width:40px;
@@ -199,6 +199,12 @@ nav li a:hover{
 .cta {
     text-align: center;
     padding: 80px 0;
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    
 }
 .free-note {
     margin-top: 10px;
