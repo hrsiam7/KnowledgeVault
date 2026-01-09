@@ -175,3 +175,27 @@ nav li a:hover{
     margin: 80px auto;
 }
 
+.solution-wrapper {
+    width: 1200px;
+    margin: 150px auto;
+    display: flex;
+    gap: 60px;
+}
+
+.solution-img img {
+    width: 350px;
+}
+
+.solution-text h2 {
+    font-size: 38px;
+    line-height: 1.3;
+}
+
+.solution-list {
+    margin-top: 20px;
+}
+
+.solution-list li {
+    margin-bottom: 10px;
+}
+
