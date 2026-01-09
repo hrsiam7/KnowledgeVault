@@ -11,12 +11,11 @@
   background-color: #FFFFFF;
 }
 .nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;;
-    
-    
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 .logo{
   margin-left: 120px;
@@ -59,17 +58,22 @@ nav li a:hover{
 }
 .container{
     background-image: url('../img/hero-bg.png');
-    background-attachment: fixed;
-    width: 100%;
     height: 600px;
-    border-image-repeat: stretch;
-    background-size: cover;
     text-align: center;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     
      
 }
+.container > p{
+  max-width:700px;
+  color:#30B868;
+  line-height:1.6;
+  margin:20px 0;
+}
+
 .heading{
    width: 770px;
    margin: 0 auto;
@@ -130,11 +134,25 @@ nav li a:hover{
     width: 229px;
     height: 35px;
 }
+.problem{
+  text-align:center;
+  margin-top:100px;
+}
 .cart{
   display:flex;
   justify-content:center;
   gap:24px;
   margin:80px auto;
+}
+.cart img{
+  width:40px;
+  height:auto;
+  width:40px;
+  height:40px;
+  background: #F95555;
+  border-radius: 40px;
+  padding:8px;
+  
 }
 
 .cart > div{
@@ -144,3 +162,16 @@ nav li a:hover{
   border-radius:12px;
   text-align:center;
 }
+
+
+.your-feature li {
+    list-style: none;
+
+}
+.knowledge{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 80px auto;
+}
+
